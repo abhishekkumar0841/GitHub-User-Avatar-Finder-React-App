@@ -6,7 +6,7 @@ import SearchInput from "./components/SearchInput/SearchInput";
 function App() {
 
   return (
-    <div>
+    <div className="overflow-x-hidden w-screen h-screen">
       <SearchInput  />
       <ImageContainer />
     </div>
